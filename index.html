@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Asal alhawari</title>
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cars">
+        <table id="employeeList" border="1">
+            <thead>
+                <tr>
+                    <th>Car name</th>
+                    <th>born</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mercedes</td>
+                    <td>Germany</td>
+                    <td>Benz</td>
+                    <td>2001</td>
+                    <td>
+                        <a onClick="onEdit(this)">Edit</a>
+                        <a onClick="onDelete(this)">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Range Rover</td>
+                    <td>Britain</td>
+                    <td>SUV</td>
+                    <td>2003</td>
+                    <td>
+                        <a onClick="onEdit(this)">Edit</a>
+                        <a onClick="onDelete(this)">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>bkam</td>
+                    <td>jordan</td>
+                    <td>ka</td>
+                    <td>2024</td>
+                    <td>
+                        <a onClick="onEdit(this)">Edit</a>
+                        <a onClick="onDelete(this)">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="updateBtn">
+        <button onclick="editTableDisplay()">Update data</button>
+    </div>
+
+    <div class="editTable">
+        <div class="left">Car name: </div>
+        <div class="right"><input type="text" name="Car name" id="Car name"></div><br><br>
+        <div class="left">Country: </div>
+        <div class="right"><input type="text" name="Country" id="Country"></div><br><br>
+        <div class="left">Make: </div>
+        <div class="right"><input type="text" name="Make" id="Make"></div><br><br>
+        <div class="left">Model: </div>
+        <div class="right"><input type="text" name="Model" id="Model"></div><br><br>
+        <button onclick="onFormSubmit();" class="editRowBtn">Update</button><br><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

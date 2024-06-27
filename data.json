@@ -1,0 +1,34 @@
+
+{
+    "data":[
+    {
+        "Car name": "Mercedes-Benz",
+        "Country": "Germany",
+        "Make": "Mercedes",
+        "Model": ["A-Class", "C-Class", "E-Class", "S-Class", "G-Class", "GLE"]
+    },
+    {
+        "Car name": "Range Rover",
+        "Country": "Britain",
+        "Make": "Land Rover",
+        "Model": ["Range Rover", "Range Rover Sport", "Range Rover Evoque", "Range Rover Velar"]
+    },
+    {
+        "Car name": "BMW",
+        "Country": "Germany",
+        "Make": "BMW",
+        "Model": ["1 Series", "3 Series", "5 Series", "7 Series", "X5", "X6"]
+    },
+    {
+        "Car name": "Toyota",
+        "Country": "Japan",
+        "Make": "Toyota",
+        "Model": ["Corolla", "Camry", "Prius", "Land Cruiser", "RAV4", "Highlander"]
+    },
+    {
+        "Car name": "Ford",
+        "Country": "USA",
+        "Make": "Ford",
+        "Model": ["Fiesta", "Focus", "Mustang", "Explorer", "F-150", "Ranger"]
+    }
+]}
